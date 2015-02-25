@@ -2,13 +2,48 @@
 	box-sizing: border-box;
 }
 
-body {
-
-}
-
-.title {
-	background-image: url('images/polygon_bg.jpg');
+.masthead {
+	background-image: url('../images/polygon_bg.jpg');
 	background-repeat: no-repeat;
 	background-position: 100%;
 	background-size: cover;
+	padding: 3em;
+}
+
+.title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	letter-spacing: .25em;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.content {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.navigation {
+	height: 3.125em;
+	background-color: #d66bf0;
+}
+
+.links {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.125em;
+	font-weight: 700;
+	margin: 0;
+	padding: .8em 0;
+}
+
+.links li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.links a {
+	text-decoration: none;
+	color: white;
 }

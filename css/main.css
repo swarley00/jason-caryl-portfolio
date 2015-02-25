@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+}
+
+.title {
+	background-image: url('images/polygon_bg.jpg');
+	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: cover;
+}

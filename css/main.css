@@ -94,9 +94,32 @@ a {
 
 .body-module {
 	margin: 0.375em;
+	/*Remove if not working*/
+	/*width: 702px;*/
+	position: relative;
 }
 
-.overlay p {
+.body-module p {
+	display: none;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.875em;
+	font-weight: 700;
+}
+
+.body-module:hover p {
+	display: block;
+	position: absolute;
+	background-color: rgba(88,173,255,.95);
+	width: 100%;
+	height: 99.5%;
+	text-align: center;
+	padding-top: 12em;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/*.overlay p {
 	display: none;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
@@ -119,7 +142,7 @@ a {
 	padding-top: 11em;
 	cursor: pointer;
 	text-decoration: underline;
-}
+}*/
 
 .img-body {
 	border: solid 1px #58adff;

@@ -94,8 +94,6 @@ a {
 
 .body-module {
 	margin: 0.375em;
-	/*Remove if not working*/
-	/*width: 702px;*/
 	position: relative;
 }
 
@@ -119,31 +117,6 @@ a {
 	text-decoration: underline;
 }
 
-/*.overlay p {
-	display: none;
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1.875em;
-	font-weight: 700;
-}
-
-.overlay {
-	width: 702px;
-	position: relative;
-}
-
-.overlay:hover p {
-	display: block;
-	position: absolute;
-	background-color: rgba(88,173,255,.95);
-	width: 100%;
-	height: 99.5%;
-	text-align: center;
-	padding-top: 11em;
-	cursor: pointer;
-	text-decoration: underline;
-}*/
-
 .img-body {
 	border: solid 1px #58adff;
 }
@@ -160,4 +133,9 @@ a {
 	color: white;
 	padding-top: 2.25em;
 	padding-left: 11.5em;
+}
+
+.social {
+	background-color: white;
+	list-style: none;
 }

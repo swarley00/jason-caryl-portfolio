@@ -76,6 +76,10 @@ a {
 	width: 100%;
 }
 
+.col-1 img {
+	width: 100%;
+}
+
 [class*='col-'] {
 	float: left;
 	padding-right: 1px;
@@ -127,6 +131,28 @@ a {
 
 .img-body {
 	border: solid 1px #58adff;
+}
+
+.about-body {
+	margin: 0 auto;
+}
+
+.about-body h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.875em;
+	font-weight: 700;
+	color: #58adff;
+	margin-top: 2em;
+}
+
+.about-body p {
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	color: #9a9a9a;
+}
+
+.contact-body {
+	margin: 0 auto;
 }
 
 .footer {

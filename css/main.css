@@ -133,11 +133,11 @@ a {
 	border: solid 1px #58adff;
 }
 
-.about-body {
+.body-content {
 	margin: 0 auto;
 }
 
-.about-body h1 {
+.body-content h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.875em;
 	font-weight: 700;
@@ -145,14 +145,34 @@ a {
 	margin-top: 2em;
 }
 
-.about-body p {
+.body-content p {
 	font-family: 'Merriweather', serif;
 	font-size: 1em;
 	color: #9a9a9a;
 }
 
-.contact-body {
-	margin: 0 auto;
+.body-content ul {
+	padding: 0;
+}
+
+.body-content li {
+	list-style-type: none; 
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	color: #9a9a9a;
+}
+
+.info {
+	float: left;
+}
+
+.links {
+	float: right;
+	margin-right: 30em;
+}
+
+.links li {
+	color: #58adff;
 }
 
 .footer {

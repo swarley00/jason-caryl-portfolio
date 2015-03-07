@@ -162,6 +162,18 @@ a {
 	color: #9a9a9a;
 }
 
+.caption {
+	margin-top: 1em;
+}
+
+.body-content a {
+	color: #58adff;
+}
+
+.body-content a:hover {
+	color: #b14bee;
+}
+
 .info {
 	float: left;
 }
@@ -173,6 +185,10 @@ a {
 
 .links li {
 	color: #58adff;
+}
+
+.links li:hover {
+	color: #b14bee;
 }
 
 .footer {

@@ -145,9 +145,18 @@ a {
 	margin-top: 2em;
 }
 
+.body-content a {
+	color: #58adff;
+}
+
+.body-content a:hover {
+	color: #b14bee;
+}
+
 .body-content p {
 	font-family: 'Merriweather', serif;
 	font-size: 1em;
+	line-height: 1.5em;
 	color: #9a9a9a;
 }
 
@@ -164,14 +173,6 @@ a {
 
 .caption {
 	margin-top: 1em;
-}
-
-.body-content a {
-	color: #58adff;
-}
-
-.body-content a:hover {
-	color: #b14bee;
 }
 
 .info {
